@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #mouse1{
+            overflow: hidden;
+            color: red;
+            border-radius: 20px;
+
+        }
+        button{
+            overflow: hidden;
+            border-radius: 20px;
+            width: 150px;
+            margin: 50px;
+
+        }
+    </style>
+    <h1>UTS Javascript</h1><br><br>
+    <p>Nama: Muhammad fatih al hijri</p>
+    <p>Kelas: X rpl</p>
+
+    <button onclick="perlihatkanKata('text')" ondblclick="alert('Tombol Di klik 2 kali')" id="click">Click me</button>
+    <button onmouseenter="changeColor()" onmouseleave="changeColor1()" id="">Mouse In & Out</button>
+    <button onclick="remove()" id="remove" >Remove</button><br>
+    <h2 id="mouse1">X RPL</h2>
+    <h3 id="berhasil"></h3>
+    
+    <!-- <input type="button" name="answer" onclick="showDiv('toggle')" value="Tunjukkan"/> -->
+ 
+    <div id="text" style="display:none"><h1> Berhasil!!!!</h1></div>
+    
+    <script src="dom.js"></script>
+</body>
+</html>
