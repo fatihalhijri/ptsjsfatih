@@ -1,10 +1,10 @@
 class jenisHewan {
-    constructor(namaFN, jumlahkakiFN, tinggalFN, makananFN, hargaFN){
+    constructor(namaFN, jumlahkakiFN, tinggalFN, makananFN,){
     this.nama = namaFN;
     this.jumlahkaki = jumlahkakiFN;
     this.tinggal = tinggalFN;
     this.makanan = makananFN; 
-    this.harga = hargaFN; 
+     
     };
     jenis(){
         return "hewan " + this.nama + " ini berjenis kelamin jantan  ";
@@ -20,7 +20,7 @@ console.log(kuda.nama);
 console.log(kuda.jumlahkaki);
 console.log(kuda.tinggal);
 console.log(kuda.makanan);
-console.log(kuda.harga);
+
 
 console.log(kuda.jenis());
 console.log(kuda.manfaat(" bisa ditunggangi dan tidak cape"));
